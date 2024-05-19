@@ -1,17 +1,17 @@
-var students = ["никита", "илья", "даня", "рома", "ваня", "степа", "дима", "сергей", "миша", "вова", "максим", "влад"]
+var students = ["никита", "еще никита", "еще никита1", "еще никита2", "еще никита3", "еще никита4", "еще никита5", "еще никита6", "еще никита7", "еще никита8", "еще никита9", "еще никита10"]
 
 print("Список учеников:")
 for student in students {
     print(student)
 }
 
-students.append("маша")
-students.append("катя")
-students.append("соня")
-students.insert("настя", at: 3)
-students.insert("даша", at: 6)
-students.insert("лиза", at: 9)
-students.insert("вика", at: 12)
+students.append("дев1")
+students.append("дев2")
+students.append("дев3")
+students.insert("дев4", at: 3)
+students.insert("дев5", at: 6)
+students.insert("дев6", at: 9)
+students.insert("деа7", at: 12)
 
 print("\nОбновленный список учеников:")
 for student in students {
